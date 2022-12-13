@@ -17,7 +17,6 @@ struct ContentView: View {
             CircleImage()
                 .offset(x: 130, y: -110)
                 .padding(.bottom, -260)
-
             VStack(alignment: .leading) {
                 Text("Beas de Granada")
                     .font(.title)
