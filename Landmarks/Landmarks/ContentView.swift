@@ -10,10 +10,23 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "music.note.tv")
+                .resizable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 150.0, height: 120.0)
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .padding(70)
+            VStack(alignment: .center) {
+                Text("Aitor's SwiftUI")
+                    .font(.title3)
+                VStack {
+                    Text("13/12/2022")
+                        .font(.footnote)
+                    Text("Granada, Spain")
+                        .font(.subheadline)
+                }
+            }
+            
         }
         .padding()
     }
