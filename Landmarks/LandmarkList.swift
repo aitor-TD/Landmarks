@@ -17,10 +17,9 @@ struct LandmarkList: View {
                     LandmarkRow(landmark: landmark)
                 }
                 
-            }
+            }.navigationTitle("Landmarks")
         }
-        .navigationTitle("Hola")
-        .navigationBarTitleDisplayMode(.inline)
+        
     }
 }
 
