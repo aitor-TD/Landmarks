@@ -19,6 +19,7 @@
 		5B8937CB2948A34B00A9520E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8937CA2948A34B00A9520E /* ContentView.swift */; };
 		5B8937CD2948A34D00A9520E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8937CC2948A34D00A9520E /* Assets.xcassets */; };
 		5B8937D02948A34D00A9520E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B8937CF2948A34D00A9520E /* Preview Assets.xcassets */; };
+		5BC9C2C1294A0010001AAD84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC9C2C0294A0010001AAD84 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		5B8937CA2948A34B00A9520E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5B8937CC2948A34D00A9520E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B8937CF2948A34D00A9520E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5BC9C2C0294A0010001AAD84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				5B8937CA2948A34B00A9520E /* ContentView.swift */,
 				5B5FDBA52948F8FB0091907A /* LandmarkList.swift */,
 				5B5FDBA72948FA0B0091907A /* LandmarkDetail.swift */,
+				5BC9C2C0294A0010001AAD84 /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				5B5FDBA62948F8FB0091907A /* LandmarkList.swift in Sources */,
 				5B5FDBA82948FA0B0091907A /* LandmarkDetail.swift in Sources */,
 				5B5FDB962948B45A0091907A /* CircleImage.swift in Sources */,
+				5BC9C2C1294A0010001AAD84 /* ContentView.swift in Sources */,
 				5B5FDB9C2948EB5E0091907A /* Landmark.swift in Sources */,
 				5B5FDBA42948F6A50091907A /* LandmarkRow.swift in Sources */,
 				5B5FDB9E2948F51E0091907A /* ModelData.swift in Sources */,
